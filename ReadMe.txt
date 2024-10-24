@@ -1,5 +1,5 @@
-comandos
--npm i
+--Frontend
+npm i
   @mui/x-data-grid    #library to use Ui table, and dependencies
   @mui/material
   @emotion/react
@@ -19,3 +19,23 @@ npm i -D
 #To meka easy to go from light mode to dark mode
 npm i 
   tw-colors
+
+
+--Backend
+(Sql created in drawSql ans codded in schema.prisma)
+npx prisma generate
+
+npx prisma migrate dev --name init
+
+#Up the tables in schema.prisma
+npm run seed
+
+#Install other things
+npm i
+  express         #framework
+  body-parser     
+  cors            #for cors issues
+  dotenv          #envioment variables
+  helmet          #security API
+  morgan          #security API
+  concurrently    #Diferent variations for the developmente server

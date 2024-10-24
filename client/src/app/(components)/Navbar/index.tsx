@@ -53,9 +53,9 @@ const Navbar = () => {
           <div>
             <button onClick={toggleDarkMode}>
               {isDarkMode ? (
-                <Sun className="cursor-pointer text-gray-500" size={24} />
-              ) : (
                 <Moon className="cursor-pointer text-gray-500" size={24} />
+              ) : (
+                <Sun className="cursor-pointer text-gray-500" size={24} />
               )}
             </button>
           </div>
