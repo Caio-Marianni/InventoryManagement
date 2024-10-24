@@ -39,3 +39,10 @@ npm i
   helmet          #security API
   morgan          #security API
   concurrently    #Diferent variations for the developmente server
+
+#Install dependencies
+npm i -D 
+  nodemon 
+  @types/cors 
+  @types/express 
+  @types/morgan
