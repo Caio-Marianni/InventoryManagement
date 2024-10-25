@@ -11,7 +11,7 @@ import CardExpenseSummary from "./CardExpenseSummary";
 import CardPopularProducts from "./CardPopularProducts";
 import CardPurchaseSummary from "./CardPurchaseSummary";
 import CardSalesSummary from "./CardSalesSummary";
-// import StatCard from "./StatCard";
+import StatCard from "./StatCard";
 
 const Dashboard = () => {
   return (
@@ -20,7 +20,7 @@ const Dashboard = () => {
       <CardSalesSummary />
       <CardPurchaseSummary />
       <CardExpenseSummary />
-      {/* <StatCard
+      <StatCard
         title="Customer & Expenses"
         primaryIcon={<Package className="text-blue-600 w-6 h-6" />}
         dateRange="22 - 29 October 2023"
@@ -76,7 +76,7 @@ const Dashboard = () => {
             IconComponent: TrendingDown,
           },
         ]}
-      /> */}
+      />
     </div>
   );
 };
