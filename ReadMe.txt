@@ -46,3 +46,18 @@ npm i -D
   @types/cors 
   @types/express 
   @types/morgan
+
+
+
+===NOTES===
+-Chegou quuase no fim do projeto, agora o lance
+seria usar/assinar o serviço da AWS da Amazon
+mas com nao vou fazer isso, o projeto vai parar por aqui.
+
+-como se inicializa, sao duas pastas/
+client - basicamente o frontend e layout
+server - armazenamento e funcionalidades para o uso dos dados
+
+client- npm run dev (pra iniciar a aplicaçao do front)
+server- npm run dev (para inicar as funcionalidades e rotas criadas)
+      - iniciar o servidor que possui os dados, no caso desse projeto é o POSTGRE, USADO NO pgADM 4
